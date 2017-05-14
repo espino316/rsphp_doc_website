@@ -1,0 +1,59 @@
+{
+  "appName": "AirCab Panel de Control",
+  "globals": {
+    "MAIL_SERVER": "mail.wypyo.com",
+    "MAIL_USER": "lespino@wypyo.com",
+    "MAIL_PWD": "Sp1n4l01",
+    "EMAIL_ADMIN": "luis@espino.info",
+    "DEVELOPMENT_ENVIRONMENT": "1",
+    "CHANNEL_BUSINESS_ID": "30",
+    "logSql": true,
+    "GOOGLE_API_PUSH_KEY": "AIzaSyDKSSujT_1C6eRIHfNd8MHh-LacOvG2I9c",
+    "allowCORS": true
+  },
+  "configFiles": [
+  ],
+  "routes": [
+    {
+      "method": "*",
+      "url": "",
+      "newUrl": "default"
+    },
+    {
+      "method": "*",
+      "url": "doc/asistentes",
+      "newUrl": "doc/helpers"
+    },
+    {
+      "method": "*",
+      "url": "doc/iniciando",
+      "newUrl": "doc/gettingstarted"
+    }
+  ],
+  "dbConnections": [
+    {
+      "name": "default",
+      "driver": "pgsql",
+      "hostName": "dedicated.wypyo.com",
+      "databaseName": "devwypyo",
+      "userName": "developer",
+      "password": "*d3v3l0p3r*"
+    },
+    {
+      "name": "AMTY",
+      "driver": "sqlsrv",
+      "hostName": "dbserver",
+      "databaseName": "VUNICA",
+      "userName": "sa",
+      "password": "Barrete94"
+    },
+    {
+      "name": "mysql",
+      "driver": "mysql",
+      "hostName": "localhost",
+      "databaseName": "test",
+      "userName": "root",
+      "password": ""
+    }
+  ]
+}

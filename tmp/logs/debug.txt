@@ -1,0 +1,84 @@
+2016-07-22 22:58:17		<body>
+<h1>Lista de Personas</h1>
+<a href="alta">Nuevo registro</a>
+<br><br><!-- Aqui va a ir la tabla: --><table id="billsTable" class="table table-hover">
+<thead><tr>
+<th>Id</th>
+<th>Nombre</th>
+<th>Edad</th>
+<th></th>
+<th></th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>L. Espino</td>
+<td>33</td>
+<td><a href="http://localhost/rsphp/personas/editar/1" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/1" data-ajax="false">Borrar</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Martin Rivera</td>
+<td>32</td>
+<td><a href="http://localhost/rsphp/personas/editar/2" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/2" data-ajax="false">Borrar</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+	2016-07-22 22:59:47		<h1>Lista de Personas</h1>
+<a href="alta">Nuevo registro</a>
+<br><br><!-- Aqui va a ir la tabla: --><table id="billsTable" class="table table-hover">
+<thead><tr>
+<th>Id</th>
+<th>Nombre</th>
+<th>Edad</th>
+<th></th>
+<th></th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>L. Espino</td>
+<td>33</td>
+<td><a href="http://localhost/rsphp/personas/editar/1" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/1" data-ajax="false">Borrar</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Martin Rivera</td>
+<td>32</td>
+<td><a href="http://localhost/rsphp/personas/editar/2" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/2" data-ajax="false">Borrar</a></td>
+</tr>
+</tbody>
+</table>
+	2016-07-22 23:00:25		<h1>Lista de Personas</h1>
+<a href="alta">Nuevo registro</a>
+<br><br><!-- Aqui va a ir la tabla: --><table id="billsTable" class="table table-hover">
+<thead><tr>
+<th>Id</th>
+<th>Nombre</th>
+<th>Edad</th>
+<th></th>
+<th></th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>L. Espino</td>
+<td>33</td>
+<td><a href="http://localhost/rsphp/personas/editar/1" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/1" data-ajax="false">Borrar</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Martin Rivera</td>
+<td>32</td>
+<td><a href="http://localhost/rsphp/personas/editar/2" data-ajax="false">Editar</a></td>
+<td><a href="http://localhost/rsphp/personas/borrar/2" data-ajax="false">Borrar</a></td>
+</tr>
+</tbody>
+</table>
+	

@@ -1,0 +1,11 @@
+home=$PWD
+app=$PWD/application
+controllers=$PWD/application/Controllers
+models=$PWD/application/Models
+libraries=$PWD/application/Libraries
+views=$PWD/application/Views
+public=$PWD/public
+css=$PWD/public/css
+js=$PWD/public/js
+config=$PWD/config
+clear

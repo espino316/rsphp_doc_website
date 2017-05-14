@@ -1,0 +1,42 @@
+.rsphp-title {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 4em;
+}
+
+.rsphp-motto {
+  font-size: 1.75em;
+}
+
+.rsphp-logo {
+  background-image: url(../images/rslogo.png);
+}
+
+.button-image-big {
+  width: 2em; height: 2em;
+}
+
+.bg-green-lite {
+  background-color: #91E691;
+}
+
+.bg-green {
+  background-color: #20B320;
+}
+
+.fore-white {
+  color: white;
+}
+
+.border-green {
+  border: 1px solid #0E8D0E;
+}
+
+@media only screen and (max-width: 500px) {
+  .rsphp-title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+  }
+  .rsphp-motto {
+    font-size: 1.5em;
+  }
+}

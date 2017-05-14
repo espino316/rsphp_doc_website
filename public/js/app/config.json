@@ -1,0 +1,11 @@
+{
+  "options": {
+    "useRouting": true,
+    "restApiEndpoint": "http://localhost/rsjs/rest.php?resource="
+  },
+  "_comments_about_routes": "key is the #hashLocation, value is the controler and function to trigger: controller.function",
+  "routes": {
+    "hola": "example.hola",
+    "adios": "example.adios"
+  }
+}

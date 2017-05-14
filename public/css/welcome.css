@@ -1,0 +1,394 @@
+/*
+  http://paletton.com/#uid=12P0u0klzuwbSLBhgAOqks9sTmc
+  http://paletton.com/#uid=13P0u0kILEsmKJQteIFJtrALplu
+  http://paletton.com/#uid=10X0u0kILEsmKJQteIFJtrALplu
+*/
+
+.pallete-1-bg {
+  background-color: #91E691;
+}
+
+.pallete-1 {
+  color: #91E691;
+}
+
+.pallete-2-bg {
+  background-color: #62D562;
+}
+
+.pallete-2 {
+  color: #62D562;
+}
+
+.pallete-3-bg {
+  background-color: #3FC23F;
+}
+
+.pallete-3 {
+  color: #3FC23F;
+}
+
+.pallete-4-bg {
+  background-color: #20B320;
+}
+
+.pallete-4 {
+  color: #20B320;
+}
+
+.pallete-5-bg {
+  background-color: #0E8D0E;
+}
+
+.pallete-5 {
+  color: #0E8D0E;
+}
+
+.pallete-5-border {
+  border: 1px solid #0E8D0E;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #20B320;
+  width: 100%;
+  color: white;
+  height: 5em;
+  font-weight: bold;
+}
+
+.header div {
+  /*float: left;*/
+}
+
+.header > .content {
+  width: 80%;
+  margin: auto;
+  height: inherit;
+}
+
+.header > .content > .logo {
+  width: 20%;
+  float: left;
+  height: inherit;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.header > .content > .menu {
+  width: 50%;
+  float: right;
+  height: inherit;
+}
+
+.header > .content > .menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: table;
+  height: inherit;
+  text-align: center;
+}
+
+.header > .content > .menu ul li {
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2em;
+}
+
+.jumbotron {
+  width: 100%;
+  overflow: auto;
+  background-color: whitesmoke;
+}
+
+.jumbotron > .content {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.jumbotron > .content div {
+  float: left;
+}
+
+.jumbotron > .content > .logo {
+  height: 12em;
+  width: 12em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.jumbotron > .content > .logo > .middle {
+  font-size: 6em;
+  font-style: italic;
+  background-image: url('../images/rslogo.png');
+  background-size: 100% 100%;
+}
+
+.jumbotron > .content > .title {
+  height: 6em;
+  width: 60%;
+}
+
+.jumbotron > .content > .title > .middle {
+  font-size: 3em;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.jumbotron > .content > .motto {
+  width: 60%;
+  height: 6em;
+}
+
+.jumbotron > .content > .motto > .middle {
+  font-size: 1.75em;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.content > .intro {
+  width: 100%;
+  float: left;
+}
+
+.content > .intro > .left, .content > .intro > .right {
+  width: 50%;
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.content > .intro > .left > .title {
+  width: 100%;
+  text-align: center;
+  color: #404040;
+}
+
+.content > .intro > .left > .title h1 {
+  font-size: 1.85em;
+}
+
+.content > .intro > .left > .sub-title {
+  width: 100%;
+  margin: 2em;
+}
+
+.content > .intro > .left > .goal p {
+  font-size: 1.3em;
+  text-indent: 1em;
+  line-height: 1.6em;
+}
+
+.content > .intro > .right > .item {
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  border-radius: 1em;
+  border: 1px solid #0E8D0E;
+  box-shadow: 2px 2px 5px gray;
+  background-color: #91E691;
+  padding: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content > .intro > .right > .item:hover {
+  box-shadow: 3px 3px 5px gray;
+}
+
+.content > .intro > .right > .item > .middle img {
+  width: 2em;
+  height: 2em;
+}
+
+.content > .features {
+  width: 100%;
+  float: left;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 1em;
+}
+
+.content > .features > .feature {
+  width: 100%;
+  float: left;
+  margin: 0.5em;
+}
+
+.content > .features > .feature h3 {
+  font-size: 1.6em;
+  color: black;
+  height: 5em;
+  width: 35%;
+  float: left;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content > .features > .feature p {
+  font-size: 1.2em;
+  width: 65%;
+  float: left;
+  padding: 1em;
+}
+
+#spaghetti {
+  background-image: url('../images/spaghetti2.png');
+  background-position: center;
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+
+#simplicity {
+  background-image: url('../images/simplemachine2.png');
+  background-position: center;
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+
+#light-and-quick {
+  background-image: url('../images/ninja2.png');
+  background-position: center;
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+
+#maintainability {
+  background-image: url('../images/swordsman2.png');
+  background-position: center;
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+
+.actions {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 2em;
+  float: left;
+}
+
+.actions > .action {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.awesome-title {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.awesome-title h1 {
+  font-size: 3em;
+  font-style: italic;
+}
+
+.awesome-features, .awesome-feature {
+  float: left;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.awesome-feature > .title {
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.awesome-feature > .description {
+  float: left;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 1em;
+}
+
+.more-awesome-features {
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.more-awesome-features > .left, .more-awesome-features > .right {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2em;
+}
+
+.more-awesome-features > .left > .item, .more-awesome-features > .right > .item {
+  float: left;
+  margin: 0.53em;
+}
+
+.more-awesome-features > .item {
+
+}
+
+.footer {
+  background-color: #0E8D0E;
+  width: 100%;
+  float: left;
+  margin-top: 2.5em;
+}
+
+.footer > .copyright, .footer > .social {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.content-min-height {
+  min-height: 70vh;
+}
+
+.doc-index {
+  font-size: 1.2em;
+}
+
+.doc-index li {
+  margin: 0.33em;
+}
+
+
+#intromvc img {
+  display: block;
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid whitesmoke;
+}
+
+#intromvc img::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#intromvc pre {
+  margin: 1em;
+}
+
+#intromvc p {
+  margin: 0.5em;
+}
