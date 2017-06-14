@@ -1,19 +1,7 @@
 <div class="content content-min-height">
   <h1>Envío de Correos Electrónicos</h1>
-  <h2 id="configuracion">Configuración</h2>
   <p>
-    Para enviar correos electrónicos, utilizaremos la clase <b>Mailer</b>, que depende de la librería de Pear Mail.php. Para instalarla,
-    correremos desde nuestra terminal los siguientes pasos:
-  </p>
-  <pre>
-    <code class="bash">
-      $ sudo pear install Mail-1.3.0
-      $ sudo pear install Net_SMTP
-      $ sudo pear install Mail_Mime
-    </code>
-  </pre>
-  <p>
-    Ahora procedemos a configurar el correo. Lo podemos hacer de dos formas, mediante app.json, configurando como variables
+    Procedemos a configurar el correo. Lo podemos hacer de dos formas, mediante app.json, configurando como variables
     globales los parámetros, o pasando los argumentos directamente a la clase, mediante un arreglo. Los parámetros mandatorios
     son: <b>servidor, usuario y password</b>. El <b>puerto</b> es opcional.
   </p>

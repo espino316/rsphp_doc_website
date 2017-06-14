@@ -100,11 +100,11 @@
       </p>
       <pre>
         <code class="php">
-          $isUpper = String::isUppercase( 'HELLO MY NAME IS' );
+          $isUpper = Str::isUppercase( 'HELLO MY NAME IS' );
           //  Imprime true
           echo $isUpper;
 
-          $isUpper = String::isUppercase( 'hello my name is' );
+          $isUpper = Str::isUppercase( 'hello my name is' );
           //  Imprime false
           echo $isUpper;
         </code>
@@ -124,7 +124,7 @@
       </p>
       <pre>
         <code class="php">
-          if ( String::contains( 'Hola me llamo Luis', 'llamo' ) ) {
+          if ( Str::contains( 'Hola me llamo Luis', 'llamo' ) ) {
             //  Do something if contains
             echo "Esta contenida!";
           } else {
@@ -152,13 +152,13 @@
           $value = "Hola";
           //  Verifica si $str comienza con $value
           //  Imprime 1
-          echo String::startsWith( $str, $val );
+          echo Str::startsWith( $str, $val );
 
           //  Cambiamos el valor:
           $value = "me llamo"
           //  Verifica si $str comienza con $value
           //  Imprime 0, es false
-          echo String::startsWith( $str, $val );
+          echo Str::startsWith( $str, $val );
         </code>
       </pre>
     </li>
@@ -180,13 +180,13 @@
           $value = "Shady!";
           //  Verifica si $str termina con $value
           //  Imprime 1
-          echo String::endsWith( $str, $val );
+          echo Str::endsWith( $str, $val );
 
           //  Cambiamos el valor:
           $value = "Slim"
           //  Verifica si $str termina con $value
           //  Imprime 0, es false
-          echo String::endsWith( $str, $val );
+          echo Str::endsWith( $str, $val );
         </code>
       </pre>
     </li>
@@ -207,7 +207,7 @@
           $str = "Hola me llamo Slim Shady!";
           $n = 7;
           // Imprime Hola me
-          echo String::left( $str, 7 );
+          echo Str::left( $str, 7 );
         </code>
       </pre>
     </li>
@@ -228,7 +228,7 @@
           $str = "Hola me llamo Slim Shady!";
           $n = 6;
           // Imprime Shady!
-          echo String::right( $str, 6 );
+          echo Str::right( $str, 6 );
         </code>
       </pre>
     </li>
@@ -247,7 +247,7 @@
         <code class="php">
           $str = "¿Cuál es el avión de él?";
           // ¿Cual es el avion de el?
-          echo String::stripAccentes( $str );
+          echo Str::stripAccentes( $str );
         </code>
       </pre>
     </li>
@@ -269,7 +269,7 @@
           $str = "¡Hola mundo!";
           $search = "mundo";
           $replace = "Luis";
-          echo String::replace( $search, $replace, $str );
+          echo Str::replace( $search, $replace, $str );
           //  Imprime:
           //  ¡Hola Luis!
         </code>
@@ -288,7 +288,7 @@
             "Han" => "C3PO",
             "rebeldes" => "androides"
           );
-          echo String::replace( $dictionary, $str );
+          echo Str::replace( $dictionary, $str );
           //  Imprime:
           //  R2D2 y C3PO son androides
         </code>
@@ -308,7 +308,7 @@
       <pre>
         <code class="php">
           $str = "¿Eres tú? ¿No perdiste el avión?";
-          echo String::specialCharsToHTML( $str );
+          echo Str::specialCharsToHTML( $str );
           //  Imprime:
           //  &amp;iquest;Eres t&amp;uacute;? &amp;iquest;No perdiste el avi&amp;oacute;n?
         </code>
@@ -328,7 +328,7 @@
       <pre>
         <code class="php">
           $str = "El invierno está cerca.";
-          echo String::toUpper( $str );
+          echo Str::toUpper( $str );
           //  Imprime:
           //  EL INVIERNO ESTÁ ACERCA
         </code>
@@ -348,7 +348,7 @@
       <pre>
         <code class="php">
           $str = "LO SIENTO DAVE. NO PUEDO HACER ESO.";
-          echo String::toLower( $str );
+          echo Str::toLower( $str );
           //  Imprime:
           //  lo siento dave. no puedo hacer eso.
         </code>
@@ -364,7 +364,7 @@
       </p>
       <pre>
         <code class="php">
-          echo String::UUID();
+          echo Str::UUID();
           //  Imprime:
           //  4c15901f-e57d-4f8c-9327-016b1c368f22
         </code>
@@ -384,11 +384,11 @@
       </p>
       <pre>
         <code class="php">
-          echo String::random( 20 );
+          echo Str::random( 20 );
           //  Imprime:
           //  XystBZ2Zk9AhEyPjj8TG
 
-          echo String::random( 15, true );
+          echo Str::random( 15, true );
           //  Imprime:
           //  -}mySMKjx%lX):k
         </code>
@@ -407,7 +407,7 @@
       </p>
       <pre>
         <code class="php">
-          if ( String::isBase64( 'TmV2ZXIgYXJndWUgd2l0aCB0aGUgZGF0YS4=' ) ) {
+          if ( Str::isBase64( 'TmV2ZXIgYXJndWUgd2l0aCB0aGUgZGF0YS4=' ) ) {
             //  Hacer algo si es base 64
             echo "Exito! Es base 64";
           } else {

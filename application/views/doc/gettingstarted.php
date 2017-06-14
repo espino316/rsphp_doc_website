@@ -22,7 +22,7 @@
     <p>Luego, desde la línea de comandos:</p>
 
     <pre><code>
-      ./rsphp init --default
+      vendor/espino316/rsphp/rsphp init --default
     </pre></code>
 
     <p>Esto creará la estructura de directorios y archivos necesarios de la aplicación:</p>
@@ -43,7 +43,7 @@
     * .htaccess
     </pre>
 
-    <p>A continuación, desde la línea de comandos podemos teclear:</p>
+    <p>A continuación, desde la línea de comandos podemos teclear directamente:</p>
 
     <pre><code>
       ./rsphp help

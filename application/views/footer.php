@@ -3,7 +3,7 @@
         <h5>Copyright (c) Luis Espino 2016, Todos los derechos reservados</h5>
       </div>
       <div class="social">
-        <a href="https://www.facebook.com/luismartin.espinorivera" target="_blank">
+        <a href="https://www.facebook.com/RealSimpleFramework" target="_blank">
           <img src="$baseUrl/public/images/fb-white-60.png" alt="logo facebook" />
         </a>
         <a href="https://twitter.com/espino316" target="_blank">
